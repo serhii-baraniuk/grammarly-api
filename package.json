@@ -1,5 +1,5 @@
 {
-  "name": "@stewartmcgown/grammarly-api",
+  "name": "grammarly-api-american",
   "version": "1.1.2",
   "description": "Client for the Grammarly API",
   "main": "build/index.js",
@@ -7,7 +7,7 @@
   "files": [
     "/build"
   ],
-  "repository": "https://github.com/stewartmcgown/grammarly-api",
+  "repository": "https://github.com/serhiibaraniuk/grammarly-api",
   "author": "Stewart McGown <stewart@twistedcore.co.uk>",
   "license": "MIT",
   "keywords": [],
