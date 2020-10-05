@@ -124,19 +124,19 @@ export const buildInitialMessage = (): InfoMessage => ({
     'readability_check',
     'filler_words_check',
     'sentence_variety_check',
-    'free_occasional_premium_alerts'
+    'free_occasional_premium_alerts',
   ],
-  dialect: 'british',
+  dialect: 'american',
   clientVersion: '14.924.2437',
   extDomain: 'keep.google.com',
   action: 'start',
   id: 0,
-  sid: 0
+  sid: 0,
 });
 
 export const buildOTMessage = (str: string): OTMessage => ({
   ch: [stringToTransform(str)],
   rev: 0,
   id: 0,
-  action: 'submit_ot'
+  action: 'submit_ot',
 });
